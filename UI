@@ -149,7 +149,7 @@ getgenv().Notify = Notify
 
 task.spawn(function()
 	while task.wait(Random.new():NextNumber(5 * 60, 10 * 60)) do
-		Notify("Enjoying this script?", "Join the discord at discord.gg/ncEHM3ZpqG", "heart")
+		Notify("Enjoying this script?", "Join the discord at discord.gg/rN4FDFjhHz", "heart")
 	end
 end)
 
@@ -234,7 +234,7 @@ pcall(function()
 
 		Discord = {
 			Enabled = true,
-			Invite = "ncEHM3ZpqG",
+			Invite = "rN4FDFjhHz",
 			RememberJoins = true
 		},
 	})
@@ -270,19 +270,19 @@ function CreateUniversalTabs()
 					Body = HttpService:JSONEncode({
 						cmd = 'INVITE_BROWSER',
 						nonce = HttpService:GenerateGUID(false),
-						args = {code = 'ncEHM3ZpqG'}
+						args = {code = 'rN4FDFjhHz'}
 					})
 				})
 			elseif setclipboard then
-				setclipboard("https://discord.gg/ncEHM3ZpqG")
+				setclipboard("https://discord.gg/rN4FDFjhHz")
 				Notify("Success!", "Copied Discord Link to Clipboard.")
 			end
 
-			Notify("Discord", "https://discord.gg/ncEHM3ZpqG")
+			Notify("Discord", "https://discord.gg/rN4FDFjhHz")
 		end,
 	})
 
-	Tab:CreateLabel("https://discord.gg/ncEHM3ZpqG", "link")
+	Tab:CreateLabel("https://discord.gg/rN4FDFjhHz", "link")
 
 	Tab:CreateSection("AFK")
 

@@ -228,7 +228,7 @@ pcall(function()
 
 		ConfigurationSaving = {
 			Enabled = true,
-			FolderName = "VermzHub",
+			FolderName = "VMSHUB",
 			FileName = `{getgenv().PlaceFileName or `DevMode-{game.PlaceId}`}-{Player.Name}`
 		},
 

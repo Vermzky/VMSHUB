@@ -217,9 +217,9 @@ local Window
 
 pcall(function()
 	Window = Rayfield:CreateWindow({
-		Name = `Vermz Hub | {PlaceName} | {ScriptVersion or "Dev Mode"}`,
+		Name = `VMS HUB | {PlaceName} | {ScriptVersion or "Dev Mode"}`,
 		Icon = "snail",
-		LoadingTitle = "🐌 Brought to you by Vermz Hub 🐌",
+		LoadingTitle = "🐌 Brought to you by VMS HUB 🐌",
 		LoadingSubtitle = PlaceName,
 		Theme = "DarkBlue",
 
@@ -257,7 +257,7 @@ function CreateUniversalTabs()
 	Tab:CreateSection("Discord")
 
 	Tab:CreateButton({
-		Name = "🐌 • Join the Vermz Hub Discord!",
+		Name = "🐌 • Join the VMS HUB Discord!",
 		Callback = function()
 			if request then
 				request({
@@ -522,7 +522,7 @@ function CreateUniversalTabs()
 	
 	Tab:CreateInput({
 		Name = "💬 • Name To Replace With",
-		CurrentValue = "Vermz Hub",
+		CurrentValue = "VMS HUB",
 		PlaceholderText = "New Name Here",
 		RemoveTextAfterFocusLost = false,
 		Flag = "NameReplacement",
@@ -618,7 +618,7 @@ function CreateUniversalTabs()
 		end
 	end
 	
-	Notify("Welcome to Vermz Hub", `Loaded in {math.floor((tick() - StartLoadTime) * 10) / 10}s`, "loader-circle")
+	Notify("Welcome to VMS HUB", `Loaded in {math.floor((tick() - StartLoadTime) * 10) / 10}s`, "loader-circle")
 	
 	local FrostByteStarted = getgenv().FrostByteStarted
 	

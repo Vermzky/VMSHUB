@@ -217,7 +217,7 @@ local Window
 
 pcall(function()
 	Window = Rayfield:CreateWindow({
-		Name = ` HUB | {PlaceName} | {ScriptVersion or "Dev Mode"}`,
+		Name = `VMS HUB | {PlaceName} | {ScriptVersion or "Dev Mode"}`,
 		Icon = "snail",
 		LoadingTitle = "🐌 Brought to you by VMS HUB 🐌",
 		LoadingSubtitle = PlaceName,
